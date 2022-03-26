@@ -27,13 +27,18 @@
   justify-content: center;
   font-family: "Eczar", serif;
   font-size: 25px;
-  color: white;
-  background-color: rgb(214, 207, 207);
+  width: 100vw;
   height: 50px;
+  color: white;
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+  background-color: rgb(214, 207, 207);
 }
 .body-div {
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
   padding: 20px 40px 40px 40px;
   background-color: #fff;
 }
